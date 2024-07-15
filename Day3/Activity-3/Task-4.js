@@ -1,0 +1,1 @@
+//write a program that uses a switch case to determine the day of the week based on the a number (1-7) and log the day name to the console.
