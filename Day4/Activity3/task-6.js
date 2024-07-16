@@ -1,0 +1,1 @@
+//wap to calculate the factorial of a number using a do...while loop

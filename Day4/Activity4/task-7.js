@@ -1,0 +1,1 @@
+//write a program to print  a pattern using nested for loops
