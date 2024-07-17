@@ -1,0 +1,1 @@
+// write a higher-order func that takes two func and a value , applies the first func to the value, and then applies the second func to the result.
