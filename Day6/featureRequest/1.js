@@ -1,0 +1,1 @@
+//array manipulation script: write a script that demonstrates the creation of an array, adding and removing elements using push, pop, shift and unshift methods.
