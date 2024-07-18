@@ -2,4 +2,4 @@
 function greetings( name, age = 18){
        console.log(`Hello ${name} and you are ${age} old.`)
 }
-greetings('Adarsh', 29)
+greetings('Adarsh', 29)//

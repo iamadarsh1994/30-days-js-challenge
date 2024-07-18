@@ -4,4 +4,4 @@ function sums(a, b){
     let result = a + b;
     return result;
 }
-console.log(sums(20, 90))
+console.log(sums(20, 90))  //

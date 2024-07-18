@@ -4,4 +4,4 @@ function square(a){
     let result = a * a;
     return result;
 }
-console.log(square(4))
+console.log(square(4)) //

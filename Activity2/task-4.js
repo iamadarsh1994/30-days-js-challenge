@@ -5,4 +5,4 @@ function concatenate (a, b){
   return result;
 }
 
-console.log(concatenate('Hello', 'Adarsh'))
+console.log(concatenate('Hello', 'Adarsh'))  //

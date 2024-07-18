@@ -4,4 +4,4 @@ function product(a, b = 2){
    let result = a * b;
    return result;
 }
-console.log(product(9, 4))
+console.log(product(9, 4)) //

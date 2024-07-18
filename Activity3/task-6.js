@@ -5,4 +5,4 @@ let b = () => {
     console.log(a.includes('r') ? 'true' : 'false');
 
 }
-b()
+b() //

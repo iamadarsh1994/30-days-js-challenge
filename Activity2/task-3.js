@@ -9,4 +9,4 @@ function findMax (a ,b){
    }else{console.log('please input a valid number')}
    return;
 }
-findMax(3, 9)
+findMax(3, 9)  //

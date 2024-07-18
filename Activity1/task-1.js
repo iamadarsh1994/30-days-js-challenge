@@ -3,4 +3,4 @@
 function oddEven (a) {
     console.log(a % 2 == 0 ? 'even' : 'odd');
 }
-oddEven(4);
+oddEven(4); //
