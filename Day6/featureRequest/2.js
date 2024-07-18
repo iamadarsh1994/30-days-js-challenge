@@ -1,1 +1,0 @@
-//Array transformation script: create a script that uses map , filter, and reduce methods to transform and aggregate array data.

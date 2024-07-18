@@ -1,1 +1,0 @@
-//Two-dimensional array script : create a script that demonstrates the creation and manipulation of a two-dimensional array.
