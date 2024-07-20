@@ -27,6 +27,26 @@ getDetails : function(){
 
 //4.add a method to the book obj that takes a para(year) and updates the book's year property, then log the updated obj.
 
+const book3 = {
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    year: 1960, // Initial year property
+    
+    // Method to update the year property
+    updateYear: function(newYear) {
+      this.year = newYear; // Update the year property with the newYear parameter
+    }
+  };
+  
+  // Log the initial book object
+//   console.log("Before update:", book3);
+  
+  // Update the year of the book
+//   book3.updateYear(2023);
+  
+  // Log the updated book object
+//   console.log("After update:", book3);
+  
 //5.create a nested obj representing a library with prop like name and books (an array of book objs), and log the library obj to the console.
 
 //6.Access and log the name of the library and the titles of all the books in the library.
