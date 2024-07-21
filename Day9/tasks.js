@@ -5,7 +5,7 @@ document.querySelectorAll('.cls1').forEach((element) => {
     element.style.backgroundColor = 'black'; // New color
 });
 //3.create a new 'div' element with some text content and append it to the body.
-
+document.getElementsByTagName('body').element.innerHTML= '<div>heyyy</div>'
 //4.create a new li element and add it to an existing ul list
 
 //5.select an HTML element and remove it from the DOM
