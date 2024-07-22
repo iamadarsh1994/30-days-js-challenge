@@ -30,9 +30,22 @@ document.getElementById('inpt').addEventListener('keydown', function(event) {
 });
 
 //6.add a keyup event listener to an input field that displays the current value in a paragraph.
+document.getElementById('inputField').addEventListener('keyup', function(event) {
+   
+    const currentValue = event.target.value;
 
+    document.getElementById('displayParagraph').textContent = currentValue;
+});
 //7. add a submit event listener to a form that prevents the default submission and logs the form data to the console.
-
+document.getElementById('forms').addEventListener('submit', function(event){
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    const formValues = {};
+    formData.forEach((value, key) => {
+        formValues[key] = value;
+    });
+    console.log('Form Data:', formValues);
+})
 //8. add a change event listener to a select dropdown that displays the selected value in a paragraph 
 
 //9. add a click event listener to a list that logs the next content of the clicked list item using event delegation

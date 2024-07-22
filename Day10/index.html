@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        img{
-            border: 2px solid red;
-        }
-        #root{
-            background-color: pink;
-        }
+      img {
+        border: 2px solid red;
+      }
+      #root {
+        background-color: pink;
+      }
     </style>
   </head>
   <body>
@@ -18,12 +18,33 @@
     <button id="btn" class="btn1">Click me</button>
 
     <div>
-      <img src="/Day10.png" alt="" width="50%" class="images"/>
+      <img src="/Day10/Day10.png" alt="" width="50%" class="images" />
     </div>
     <div>
-        <input id='inpt' type="text" name="" placeholder="Type something..." >
-        <button class="submit">Submit</button>
+      <input id="inpt" type="text" name="" placeholder="Type something." />
+      <button class="submit">Submit</button>
+      <input type="text" id="inputField" placeholder="Type something." />
+      <p id="displayParagraph"></p>
+      <hr />
+      <div>
+        <form id="forms" action="">
+          
+          <input type="email" name="email" id="email" />
+          <label for="email">Email</label>
+
+          <input type="text" id="username" name="username"/>
+          <label for="username">username</label>
+          
+          <input type="number" name="number" id="number" />
+          <label for="number">Number</label>
+          
+          <input type="password" name="password" id="password" />
+          <label for="password">password</label>
+
+          <button type="submit" id="formBtn">Submits</button>
+        </form>
+      </div>
     </div>
-    <script src="/tasks.js"></script>
+    <script src="/Day10/tasks.js"></script>
   </body>
 </html>
