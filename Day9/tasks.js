@@ -9,7 +9,19 @@ document.querySelectorAll('.cls1').forEach((element) => {
 document.getElementsByTagName('body')[0].innerHTML = '<div style=color:black;>heyyy</div>';
 
 //4.create a new li element and add it to an existing ul list
-
+function addNewItem() {
+    // Create a new <li> element
+    const newLi = document.createElement('li');
+    
+    // Set the text content of the new <li> element
+    newLi.textContent = 'New Item';
+    
+    // Get the <ul> element where the new <li> will be added
+    const ul = document.getElementById('myList');
+    
+    // Append the new <li> element to the <ul>
+    ul.appendChild(newLi);
+  }
 //5.select an HTML element and remove it from the DOM
 
 //6.remove the last child of a specific HTML element.
