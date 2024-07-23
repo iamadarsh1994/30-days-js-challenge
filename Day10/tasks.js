@@ -47,9 +47,38 @@ document.getElementById('forms').addEventListener('submit', function(event){
     console.log('Form Data:', formValues);
 })
 //8. add a change event listener to a select dropdown that displays the selected value in a paragraph 
-
+const selectElement = document.getElementById('mySelect');
+  
+  const paragraph = document.getElementById('selectedValue');
+   
+  selectElement.addEventListener('change', function() {
+  
+    paragraph.textContent = 'Selected value: ' + this.value;
+  });
 //9. add a click event listener to a list that logs the next content of the clicked list item using event delegation
+const list = document.getElementById('myList');
+  
+ 
+  list.addEventListener('click', function(event) {
+    
+    if (event.target.tagName === 'LI') {
+      
+      console.log('Next content:', getNextContent(event.target));
+    }
+  });
 
+  
+  function getNextContent(clickedLi) {
+    
+    const index = Array.from(clickedLi.parentNode.children).indexOf(clickedLi);
+    
+    if (index < clickedLi.parentNode.children.length - 1) {
+      return clickedLi.parentNode.children[index + 1].textContent;
+    } else {
+    
+      return 'No next item available';
+    }
+  }
 //10.add an event listener to a parent element that listens for event from dynamically added child elements.
 
 
