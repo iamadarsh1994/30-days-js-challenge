@@ -12,7 +12,7 @@ button.addEventListener('click', function() {
 
     function getFetch() {
         const cityName = city.value;
-        const apiKey = "0e67db94468f659ff91f9a7fffe92ba9";
+        const apiKey = "-------";
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`;
 
         fetch(url)
