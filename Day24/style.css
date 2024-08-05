@@ -1,12 +1,15 @@
 body{
     background-color: black;
     color: white;
+    display: flex;
+    margin: 10px;
+    padding: 100px;
 }
-#parent{
+/* #parent{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
     padding: 100px;
 
-}
+} */
